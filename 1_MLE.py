@@ -18,4 +18,4 @@ def dL(n, x, p):
 
 sym.init_printing(use_unicode=False, wrap_line=True)
 p = sym.Symbol('p')
-print(sym.solveset(dL(10,8,p), p))
+print(sym.solveset(dL(10,8,p), p)) 
